@@ -4,6 +4,7 @@ import { FaCode } from "react-icons/fa";
 import Axios from 'axios'
 import './sections/channelCss.css'
 import Rss from './sections/RssTest'
+  
 
 function LandingPage() {
 
@@ -33,6 +34,7 @@ function LandingPage() {
 
 return (
     <div className="flexContainerEighty">
+  
     <Rss />
         <h3 >National News channels</h3>
     <div className="flex-container"  >
