@@ -1,43 +1,13 @@
-.flex-container{
-    /* display: flex; */
-    
-    display: flex;
-    flex-wrap: wrap;
-}
-.column{
-  /* flex: 1 0 21%; explanation below */
-  flex: 1 1 0px;
-  margin: 10px;
-  height:280px;
-  width: 360px;
-  background-color: blue;
-}
-h3,h4{
-  /* margin-top:10px;
-  margin-left:10px;
-  font-weight: bold; */
-}
-table, th, td {
-  border: 1px solid black;
-  text-align: center;
-}
-table {
-  border-collapse: collapse;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-th{
-  height: 50px;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-th, td {
-  padding: 8px;
-  text-align: center;
+.row {
+  display: flex;
 }
-.flexContainerEighty{
-  margin-left: 10%;
-  margin-right: 10%;
+
+.column {
+  flex: 16.666%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
 }
