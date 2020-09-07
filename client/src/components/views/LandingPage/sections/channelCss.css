@@ -4,10 +4,21 @@
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
-  flex: 16.666%;
-  padding: 10px;
-  height: 100%; /* Should be removed. Only for demonstration */
+  flex: 1 0 26%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: blue;
+  min-width: 300px;
+  max-width: 320px;
+  height: 850px;
+
+  display: flex;
+  flex-direction: column;
+}
+.childFlex {
+  flex: 33%;
 }

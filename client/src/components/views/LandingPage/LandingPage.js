@@ -13,7 +13,7 @@ function LandingPage() {
 
 return (
    
-    <div>
+    <div style={{width:"50%"}}>
         <MainDiv />
     </div>
 

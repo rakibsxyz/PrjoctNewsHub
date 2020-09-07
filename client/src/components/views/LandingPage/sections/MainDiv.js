@@ -1,32 +1,26 @@
 import React from 'react'
+import './channelCss.css'
 
 function MainDiv() {
     return (
-        <div class="row">
+        <div class="row" style={{ width: "100%" }}>
             <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 1</h2>
-                <p>Some text..</p>
+                <h2>Side Bar</h2>
+                <p></p>
             </div>
             <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 2</h2>
-                <p>Some text..</p>
+                <div class="childFlex" style={{ "background-color": "#ccc" }}>1</div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>2</div>
+                <div class="childFlex" style={{ "background-color": "#eee" }}>3</div>
             </div>
             <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 1</h2>
-                <p>Some text..</p>
+                <div class="childFlex" style={{ "background-color": "#ccc" }}>1</div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>2</div>
+                <div class="childFlex" style={{ "background-color": "#eee" }}>3</div>
             </div>
-            <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 2</h2>
-                <p>Some text..</p>
-            </div>
-            <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 1</h2>
-                <p>Some text..</p>
-            </div>
-            <div class="column" style={{ "background-color": "#bbb" }}>
-                <h2>Column 2</h2>
-                <p>Some text..</p>
-            </div>
+
+
+
         </div>
     )
 }

@@ -1,27 +1,27 @@
 .flex-container{
     /* display: flex; */
     
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
-.column{
+/* .column{ */
   /* flex: 1 0 21%; explanation below */
-  flex: 1 1 0px;
+  /* flex: 1 1 0px;
   margin: 10px;
   height:280px;
   width: 360px;
-  background-color: blue;
-}
+  background-color: blue; */
+/* } */
 h3,h4{
   /* margin-top:10px;
   margin-left:10px;
   font-weight: bold; */
 }
-table, th, td {
+/* table, th, td {
   border: 1px solid black;
   text-align: center;
-}
-table {
+} */
+/* table {
   border-collapse: collapse;
   width: 50%;
   margin-left: auto;
@@ -40,4 +40,4 @@ th, td {
 .flexContainerEighty{
   margin-left: 10%;
   margin-right: 10%;
-}
+} */
