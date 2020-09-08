@@ -21,4 +21,5 @@
 }
 .childFlex {
   flex: 33%;
+  height: 300px;;
 }

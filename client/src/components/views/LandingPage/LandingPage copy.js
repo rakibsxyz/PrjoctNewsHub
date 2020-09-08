@@ -43,8 +43,7 @@ return (
            
                 <YtPlayer videoId={channel.videoId} />
            
-        )   ) 
-
+        )) 
         }
     </div>
     
