@@ -38,7 +38,14 @@ function MainDiv() {
                 <p></p>
             </div>
             <div class="column" style={{ "background-color": "#bbb" }}>
-                <YtPlayer class="childFlex" videoId={"RBumgq5yVrA"}  />
+                <div class="childFlex" style={{ "background-color": "#ccc" }}>
+                    {/* {channelInfo && channelInfo.map((channel, id) => ( */}
+
+                        <YtPlayer videoId={"RBumgq5yVrA"}  />
+
+                    {/* ))
+                    } */}
+                </div>
                 <div class="childFlex" style={{ "background-color": "#ddd" }}>2</div>
                 <div class="childFlex" style={{ "background-color": "#eee" }}>3</div>
             </div>
