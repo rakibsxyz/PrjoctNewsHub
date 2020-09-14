@@ -32,32 +32,41 @@ function MainDiv() {
 
 
     return (
+        
         <div class="row" style={{ width: "100%" }}>
             <div class="column" style={{ "background-color": "#bbb" }}>
                 <h2>Side Bar</h2>
                 <p></p>
             </div>
-            <div class="column" style={{ "background-color": "#bbb" }}>
-                <div class="childFlex" style={{ "background-color": "#ccc" }}>
-                    {/* {channelInfo && channelInfo.map((channel, id) => ( */}
-
-                        <YtPlayer videoId={"RBumgq5yVrA"}  />
-
-                    {/* ))
-                    } */}
+            <div class="column" style={{ "background-color": "#bcd" }}>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
                 </div>
-                <div class="childFlex" style={{ "background-color": "#ddd" }}>2</div>
-                <div class="childFlex" style={{ "background-color": "#eee" }}>3</div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
+                </div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
+                </div>
             </div>
             <div class="column" style={{ "background-color": "#bbb" }}>
-                <div class="childFlex" style={{ "background-color": "#ccc" }}>1</div>
-                <div class="childFlex" style={{ "background-color": "#ddd" }}>2</div>
-                <div class="childFlex" style={{ "background-color": "#eee" }}>3</div>
+            <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
+                </div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
+                </div>
+                <div class="childFlex" style={{ "background-color": "#ddd" }}>
+                    <YtPlayer videoId={"faAVAai7szM"} style={{ "background-color": "#ccc" }} />
+                    <div> This is me</div>
+                </div>
             </div>
-
-
-
-        </div>
+        </div >
     )
 }
 

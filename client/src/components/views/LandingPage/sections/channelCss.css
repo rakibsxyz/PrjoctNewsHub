@@ -2,24 +2,39 @@
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .column {
-  flex: 1 0 26%; /* explanation below */
-  margin: 5px;
-  height: 100px;
-  background-color: blue;
-  min-width: 300px;
-  max-width: 320px;
+  float: left;
+  width: 33.33%;
   height: 850px;
-
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+  
 }
 .childFlex {
-  flex: 33%;
-  height: 300px;;
+  width: 320px;
+  height: 33.33%;
+  /* padding: 10px; */
+  margin: 10px;
+  
+  
+  box-sizing: border-box;
 }
+.ytplayer {
+ 
+  width: 320px;
+  height: 220px;
+  max-width:320px ;
+  min-width: 320px ;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+

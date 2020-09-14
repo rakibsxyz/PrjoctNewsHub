@@ -15,7 +15,7 @@ export default class YtPlayer extends React.Component {
       },
     };
  
-    return <YouTube  className = "column" videoId={this.props.videoId} opts={opts} onReady={this._onReady} /> ;
+    return <YouTube  className = "ytplayer" videoId={this.props.videoId} opts={opts} onReady={this._onReady} /> ;
   }
  
   _onReady(event) {
